@@ -1,0 +1,28 @@
+html{
+	font-family: Verdana;
+}
+
+
+body{
+	border: solid 1px black;
+	width: 1000px;
+	height: 500px;
+	margin: auto;
+}
+
+div#header{
+	border: solid 1px black;
+	text-align: center;
+}
+
+div.loginPanel{
+	height: 60px;
+	width: 120px;
+	float:left;
+	border: solid 1px black;
+}
+
+div.loginPanelElement{
+	height: 30px;
+	text-align: center;
+}
