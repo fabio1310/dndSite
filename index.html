@@ -9,24 +9,27 @@
 <body>
 
 	<div id="header">
-		header
+		DnD site
 	</div>
-		<form action="login.php" method="post">
-			<div class="loginPanel">
-				<div class="loginPanelElement">
-					USERNAME :
+		<form action="script/login.php" method="get">
+			<div id="login">
+				<div class="loginPanel">
+					<div class="loginPanelElement">
+						USERNAME :
+					</div>
+					<div class="loginPanelElement">
+						PASSWORD :
+					</div>
 				</div>
-				<div class="loginPanelElement">
-					PASSWORD :
+				<div class="loginPanel">
+					<div class="loginPanelElement">
+						<input id="username" name="username" type="text" 	size="10"/>
+					</div>
+					<div class="loginPanelElement">
+						<input id="password" name="password"type="password" 	size="10"/>
+					</div>
 				</div>
-			</div>
-			<div class="loginPanel">
-				<div class="loginPanelElement">
-					<input type="text" 	size="10"/>
-				</div>
-				<div class="loginPanelElement">
-					<input type="password" 	size="10"/>
-				</div>
+				<input type="submit"/>
 			</div>
 		</form>
 </body>

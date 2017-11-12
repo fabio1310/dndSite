@@ -1,5 +1,6 @@
 html{
 	font-family: Verdana;
+	background-color:lightblue;
 }
 
 
@@ -7,19 +8,40 @@ body{
 	border: solid 1px black;
 	width: 1000px;
 	height: 500px;
-	margin: auto;
+	margin-top:50px;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
 }
 
 div#header{
-	border: solid 1px black;
+	border: solid 4px black;
 	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+
+div#login{
+	border: solid 4px black;
+	height: 100px;
+	width: 240px;
+	margin-top:50px;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+input{
+	margin: 5px;
 }
 
 div.loginPanel{
 	height: 60px;
 	width: 120px;
 	float:left;
-	border: solid 1px black;
 }
 
 div.loginPanelElement{
